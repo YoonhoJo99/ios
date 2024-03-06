@@ -88,5 +88,9 @@ class SymboleRollerViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    var gitExample : String = "git okok"
 
 }
+
+//git 연동 잘 되나 확인하려는 주석
