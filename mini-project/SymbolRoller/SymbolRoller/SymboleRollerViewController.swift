@@ -89,8 +89,7 @@ class SymboleRollerViewController: UIViewController {
     }
     */
     
-    var gitExample : String = "git okok"
-
+    
 }
 
 //git 연동 잘 되나 확인하려는 주석
