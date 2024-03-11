@@ -16,7 +16,7 @@ class ChatListCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        thumbnail.layer.cornerRadius = 10
+        thumbnail.layer.cornerRadius = 30
     }
     
     func configure(_ chat: Chat) {
