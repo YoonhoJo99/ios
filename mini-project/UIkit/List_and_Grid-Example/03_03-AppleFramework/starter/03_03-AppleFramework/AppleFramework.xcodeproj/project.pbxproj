@@ -16,6 +16,8 @@
 		948CD20C2812AD5F003DC0C4 /* AppleFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD20B2812AD5F003DC0C4 /* AppleFrameworkUITests.swift */; };
 		948CD20E2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD20D2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift */; };
 		948CD21B2812ADBA003DC0C4 /* FramewokData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD21A2812ADBA003DC0C4 /* FramewokData.swift */; };
+		FF6FAA2D2BA1FCD10044D926 /* FrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6FAA2C2BA1FCD10044D926 /* FrameworkViewController.swift */; };
+		FF6FAA2F2BA2012A0044D926 /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6FAA2E2BA2012A0044D926 /* FrameworkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		948CD20B2812AD5F003DC0C4 /* AppleFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITests.swift; sourceTree = "<group>"; };
 		948CD20D2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		948CD21A2812ADBA003DC0C4 /* FramewokData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramewokData.swift; sourceTree = "<group>"; };
+		FF6FAA2C2BA1FCD10044D926 /* FrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkViewController.swift; sourceTree = "<group>"; };
+		FF6FAA2E2BA2012A0044D926 /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 				948CD1EC2812AD5E003DC0C4 /* SceneDelegate.swift */,
 				948CD21A2812ADBA003DC0C4 /* FramewokData.swift */,
 				948CD1F02812AD5E003DC0C4 /* Main.storyboard */,
+				FF6FAA2E2BA2012A0044D926 /* FrameworkCell.swift */,
 				948CD1F32812AD5F003DC0C4 /* Assets.xcassets */,
+				FF6FAA2C2BA1FCD10044D926 /* FrameworkViewController.swift */,
 				948CD1F52812AD5F003DC0C4 /* LaunchScreen.storyboard */,
 				948CD1F82812AD5F003DC0C4 /* Info.plist */,
 			);
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				948CD1EB2812AD5E003DC0C4 /* AppDelegate.swift in Sources */,
+				FF6FAA2D2BA1FCD10044D926 /* FrameworkViewController.swift in Sources */,
 				948CD1ED2812AD5E003DC0C4 /* SceneDelegate.swift in Sources */,
+				FF6FAA2F2BA2012A0044D926 /* FrameworkCell.swift in Sources */,
 				948CD21B2812ADBA003DC0C4 /* FramewokData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
