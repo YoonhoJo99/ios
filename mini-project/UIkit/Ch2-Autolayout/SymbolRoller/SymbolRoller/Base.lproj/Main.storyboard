@@ -37,6 +37,7 @@
                                         <rect key="frame" x="0.0" y="679" width="393" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="CBL-cO-dZZ"/>
+                                            <constraint firstAttribute="width" constant="393" id="wx4-vV-wQP"/>
                                         </constraints>
                                         <color key="tintColor" systemColor="systemPinkColor"/>
                                         <state key="normal" title="Button"/>

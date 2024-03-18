@@ -27,7 +27,7 @@ class FocusViewController: UIViewController {
         super.viewDidLoad()
         refreshButton.layer.cornerRadius = 10  
         
-        //Presentation, Data, Layout
+        //presentaition: diffable datasource
         datasource = UICollectionViewDiffableDataSource(collectionView: collectionView, cellProvider: { collectionView, indexPath, item in
 
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FocusCell", for: indexPath) as? FocusCell else  {
