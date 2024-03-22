@@ -24,8 +24,6 @@ class FrameworkListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.delegate = self
-        
         navigationController?.navigationBar.topItem?.title = "☀️ Apple Frameworks"
         
         // Presentation, Data, Layout
@@ -68,9 +66,4 @@ class FrameworkListViewController: UIViewController {
     }
 }
 
-extension FrameworkListViewController: UICollectionViewDelegate {
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let framework = list[indexPath.item]
-        print(">>> selected: \(framework.name)")
-    }
-}
+

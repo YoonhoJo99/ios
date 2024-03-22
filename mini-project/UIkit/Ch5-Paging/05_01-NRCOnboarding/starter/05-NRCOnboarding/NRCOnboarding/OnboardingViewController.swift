@@ -80,3 +80,5 @@ extension OnboardingViewController: UIScrollViewDelegate{
         pageControl.currentPage = index
     }
 }
+
+

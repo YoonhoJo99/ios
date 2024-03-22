@@ -64,6 +64,7 @@ extension ChatListViewController: UICollectionViewDataSource {
         }
         //06-5. 캐스팅 성공 했을 때
         let chat = chatList[indexPath.item]
+        print(indexPath)
         cell.configure(chat)
         return cell
     }

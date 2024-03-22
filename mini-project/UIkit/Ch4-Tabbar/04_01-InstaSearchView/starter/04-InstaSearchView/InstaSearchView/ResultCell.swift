@@ -17,7 +17,7 @@ class ResultCell: UICollectionViewCell {
         thumbnailImageView.image = nil
     }
     
-    
+
     func configure(_ imageName: String){
         thumbnailImageView.image = UIImage(named: imageName)
     }
